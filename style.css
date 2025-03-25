@@ -1,59 +1,76 @@
 @font-face {
-    font-family: "Figtree";
-    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-family: "Figtree-Bold";
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Figtree";
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
-body{
-    background-color: hsl(47, 88%, 63%);
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree";
 }
 
-
-.wrapper{
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-    width: 300px;
-    border-radius: 10px;   
-    padding: 0.5rem ;
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
-.imageContainer{
-   width: 100%;
-   border-radius: 10px;
-   overflow: hidden;
-} 
-
-
- img{
-    width: 100%;
-    object-fit: cover;
-    display: block;
-} 
-
-button{
-    background-color:  #f4d04e;
-    color: rgb(18, 18, 18);
-     border: none; 
-    border-radius: 6px;
-    padding: 2px;
-    font-size: 16px;
-    padding: 2px 8px;
-    margin-top: 10px;
-    /* font-size: 6px; */
-
-    
+.wrapper {
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 
-.paragraph{
-    font-size: 8px;
+.imageContainer {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+button {
+  background-color: #f4d04e;
+  color: rgb(18, 18, 18);
+  border: none;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: 16px;
+  padding: 2px 8px;
+  margin-top: 10px;
+  /* font-size: 6px; */
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.h2 {
+  margin-top: 10px;
+  font-family: "Figtree-Bold";
+}
+
+.lastImage {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.lastImage > img {
+  width: 30px;
 }

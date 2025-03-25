@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree";
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.wrapper{
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 10px;   
+    padding: 0.5rem ;
+}
+
+.imageContainer{
+   width: 100%;
+   border-radius: 10px;
+   overflow: hidden;
+} 
+
+
+ img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+} 
+
+button{
+    background-color:  #f4d04e;
+    color: rgb(18, 18, 18);
+     border: none; 
+    border-radius: 6px;
+    padding: 2px;
+    font-size: 16px;
+    padding: 2px 8px;
+    margin-top: 10px;
+    /* font-size: 6px; */
+
+    
+}
+
+.paragraph{
+    font-size: 8px;
+}
